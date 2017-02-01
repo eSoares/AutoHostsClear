@@ -31,5 +31,4 @@ class Host:
             self.crypto_sig = line_parts[2]
 
     def __str__(self):
-        print "here with line {}".format(self.hosts_line)
         return self.hosts_line
